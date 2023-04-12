@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C117F729E75E820091F1BA /* GPT_IphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C117F629E75E820091F1BA /* GPT_IphoneApp.swift */; };
+		26C117F929E75E820091F1BA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C117F829E75E820091F1BA /* Persistence.swift */; };
+		26C117FC29E75E820091F1BA /* GPT_Iphone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26C117FA29E75E820091F1BA /* GPT_Iphone.xcdatamodeld */; };
+		26C117FE29E75E820091F1BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C117FD29E75E820091F1BA /* ContentView.swift */; };
+		26C1180029E75E830091F1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C117FF29E75E830091F1BA /* Assets.xcassets */; };
+		26C1180429E75E830091F1BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26C1180329E75E830091F1BA /* Preview Assets.xcassets */; };
+		26C1180E29E75E830091F1BA /* GPT_IphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1180D29E75E830091F1BA /* GPT_IphoneTests.swift */; };
+		26C1181829E75E830091F1BA /* GPT_IphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1181729E75E830091F1BA /* GPT_IphoneUITests.swift */; };
+		26C1181A29E75E830091F1BA /* GPT_IphoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1181929E75E830091F1BA /* GPT_IphoneUITestsLaunchTests.swift */; };
+		26C1182729E760E00091F1BA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1182629E760E00091F1BA /* ViewModel.swift */; };
+		26C1182929E761550091F1BA /* SiriBotUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C1182829E761550091F1BA /* SiriBotUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26C1180A29E75E830091F1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C117EB29E75E820091F1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C117F229E75E820091F1BA;
+			remoteInfo = "GPT-Iphone";
+		};
+		26C1181429E75E830091F1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26C117EB29E75E820091F1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26C117F229E75E820091F1BA;
+			remoteInfo = "GPT-Iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26C117F329E75E820091F1BA /* GPT-Iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPT-Iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C117F629E75E820091F1BA /* GPT_IphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_IphoneApp.swift; sourceTree = "<group>"; };
+		26C117F829E75E820091F1BA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		26C117FB29E75E820091F1BA /* GPT_Iphone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GPT_Iphone.xcdatamodel; sourceTree = "<group>"; };
+		26C117FD29E75E820091F1BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26C117FF29E75E830091F1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26C1180129E75E830091F1BA /* GPT_Iphone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPT_Iphone.entitlements; sourceTree = "<group>"; };
+		26C1180329E75E830091F1BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26C1180929E75E830091F1BA /* GPT-IphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT-IphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C1180D29E75E830091F1BA /* GPT_IphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_IphoneTests.swift; sourceTree = "<group>"; };
+		26C1181329E75E830091F1BA /* GPT-IphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPT-IphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C1181729E75E830091F1BA /* GPT_IphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_IphoneUITests.swift; sourceTree = "<group>"; };
+		26C1181929E75E830091F1BA /* GPT_IphoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT_IphoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26C1182629E760E00091F1BA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		26C1182829E761550091F1BA /* SiriBotUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriBotUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26C117F029E75E820091F1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1180629E75E830091F1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1181029E75E830091F1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26C117EA29E75E820091F1BA = {
+			isa = PBXGroup;
+			children = (
+				26C117F529E75E820091F1BA /* GPT-Iphone */,
+				26C1180C29E75E830091F1BA /* GPT-IphoneTests */,
+				26C1181629E75E830091F1BA /* GPT-IphoneUITests */,
+				26C117F429E75E820091F1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26C117F429E75E820091F1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26C117F329E75E820091F1BA /* GPT-Iphone.app */,
+				26C1180929E75E830091F1BA /* GPT-IphoneTests.xctest */,
+				26C1181329E75E830091F1BA /* GPT-IphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26C117F529E75E820091F1BA /* GPT-Iphone */ = {
+			isa = PBXGroup;
+			children = (
+				26C117F629E75E820091F1BA /* GPT_IphoneApp.swift */,
+				26C117F829E75E820091F1BA /* Persistence.swift */,
+				26C117FD29E75E820091F1BA /* ContentView.swift */,
+				26C1182629E760E00091F1BA /* ViewModel.swift */,
+				26C1182829E761550091F1BA /* SiriBotUtility.swift */,
+				26C117FF29E75E830091F1BA /* Assets.xcassets */,
+				26C1180129E75E830091F1BA /* GPT_Iphone.entitlements */,
+				26C117FA29E75E820091F1BA /* GPT_Iphone.xcdatamodeld */,
+				26C1180229E75E830091F1BA /* Preview Content */,
+			);
+			path = "GPT-Iphone";
+			sourceTree = "<group>";
+		};
+		26C1180229E75E830091F1BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26C1180329E75E830091F1BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26C1180C29E75E830091F1BA /* GPT-IphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				26C1180D29E75E830091F1BA /* GPT_IphoneTests.swift */,
+			);
+			path = "GPT-IphoneTests";
+			sourceTree = "<group>";
+		};
+		26C1181629E75E830091F1BA /* GPT-IphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26C1181729E75E830091F1BA /* GPT_IphoneUITests.swift */,
+				26C1181929E75E830091F1BA /* GPT_IphoneUITestsLaunchTests.swift */,
+			);
+			path = "GPT-IphoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26C117F229E75E820091F1BA /* GPT-Iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C1181D29E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-Iphone" */;
+			buildPhases = (
+				26C117EF29E75E820091F1BA /* Sources */,
+				26C117F029E75E820091F1BA /* Frameworks */,
+				26C117F129E75E820091F1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPT-Iphone";
+			productName = "GPT-Iphone";
+			productReference = 26C117F329E75E820091F1BA /* GPT-Iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26C1180829E75E830091F1BA /* GPT-IphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C1182029E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-IphoneTests" */;
+			buildPhases = (
+				26C1180529E75E830091F1BA /* Sources */,
+				26C1180629E75E830091F1BA /* Frameworks */,
+				26C1180729E75E830091F1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C1180B29E75E830091F1BA /* PBXTargetDependency */,
+			);
+			name = "GPT-IphoneTests";
+			productName = "GPT-IphoneTests";
+			productReference = 26C1180929E75E830091F1BA /* GPT-IphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26C1181229E75E830091F1BA /* GPT-IphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C1182329E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-IphoneUITests" */;
+			buildPhases = (
+				26C1180F29E75E830091F1BA /* Sources */,
+				26C1181029E75E830091F1BA /* Frameworks */,
+				26C1181129E75E830091F1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26C1181529E75E830091F1BA /* PBXTargetDependency */,
+			);
+			name = "GPT-IphoneUITests";
+			productName = "GPT-IphoneUITests";
+			productReference = 26C1181329E75E830091F1BA /* GPT-IphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26C117EB29E75E820091F1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26C117F229E75E820091F1BA = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					26C1180829E75E830091F1BA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26C117F229E75E820091F1BA;
+					};
+					26C1181229E75E830091F1BA = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 26C117F229E75E820091F1BA;
+					};
+				};
+			};
+			buildConfigurationList = 26C117EE29E75E820091F1BA /* Build configuration list for PBXProject "GPT-Iphone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26C117EA29E75E820091F1BA;
+			productRefGroup = 26C117F429E75E820091F1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26C117F229E75E820091F1BA /* GPT-Iphone */,
+				26C1180829E75E830091F1BA /* GPT-IphoneTests */,
+				26C1181229E75E830091F1BA /* GPT-IphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26C117F129E75E820091F1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1180429E75E830091F1BA /* Preview Assets.xcassets in Resources */,
+				26C1180029E75E830091F1BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1180729E75E830091F1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1181129E75E830091F1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C117EF29E75E820091F1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1182729E760E00091F1BA /* ViewModel.swift in Sources */,
+				26C117F729E75E820091F1BA /* GPT_IphoneApp.swift in Sources */,
+				26C117F929E75E820091F1BA /* Persistence.swift in Sources */,
+				26C1182929E761550091F1BA /* SiriBotUtility.swift in Sources */,
+				26C117FE29E75E820091F1BA /* ContentView.swift in Sources */,
+				26C117FC29E75E820091F1BA /* GPT_Iphone.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1180529E75E830091F1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1180E29E75E830091F1BA /* GPT_IphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26C1180F29E75E830091F1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C1181829E75E830091F1BA /* GPT_IphoneUITests.swift in Sources */,
+				26C1181A29E75E830091F1BA /* GPT_IphoneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26C1180B29E75E830091F1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C117F229E75E820091F1BA /* GPT-Iphone */;
+			targetProxy = 26C1180A29E75E830091F1BA /* PBXContainerItemProxy */;
+		};
+		26C1181529E75E830091F1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26C117F229E75E820091F1BA /* GPT-Iphone */;
+			targetProxy = 26C1181429E75E830091F1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26C1181B29E75E830091F1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26C1181C29E75E830091F1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		26C1181E29E75E830091F1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GPT-Iphone/GPT_Iphone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT-Iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-Iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26C1181F29E75E830091F1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GPT-Iphone/GPT_Iphone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT-Iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-Iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26C1182129E75E830091F1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-IphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT-Iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT-Iphone";
+			};
+			name = Debug;
+		};
+		26C1182229E75E830091F1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-IphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPT-Iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPT-Iphone";
+			};
+			name = Release;
+		};
+		26C1182429E75E830091F1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-IphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPT-Iphone";
+			};
+			name = Debug;
+		};
+		26C1182529E75E830091F1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T3DT35LCAR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cornpopcorn.GPT-IphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GPT-Iphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26C117EE29E75E820091F1BA /* Build configuration list for PBXProject "GPT-Iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1181B29E75E830091F1BA /* Debug */,
+				26C1181C29E75E830091F1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C1181D29E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-Iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1181E29E75E830091F1BA /* Debug */,
+				26C1181F29E75E830091F1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C1182029E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-IphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1182129E75E830091F1BA /* Debug */,
+				26C1182229E75E830091F1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C1182329E75E830091F1BA /* Build configuration list for PBXNativeTarget "GPT-IphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C1182429E75E830091F1BA /* Debug */,
+				26C1182529E75E830091F1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26C117FA29E75E820091F1BA /* GPT_Iphone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26C117FB29E75E820091F1BA /* GPT_Iphone.xcdatamodel */,
+			);
+			currentVersion = 26C117FB29E75E820091F1BA /* GPT_Iphone.xcdatamodel */;
+			path = GPT_Iphone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26C117EB29E75E820091F1BA /* Project object */;
+}
